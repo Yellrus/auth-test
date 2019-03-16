@@ -1,0 +1,27 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+
+{% block content %}
+    <h1 class="title center">Hello World! {{title}}</h1>
+
+    {{ icon("test", "mybemclass") }}
+
+    <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+            <div id="main-form">
+
+            </div>
+
+            <div id="second-form">
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
