@@ -1,4 +1,5 @@
 // Fake API
+console.log('test commit');
 
 let fetchFakeAuth = (url, data) => {
     return new Promise((res, rej) => {
